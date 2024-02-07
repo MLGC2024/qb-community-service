@@ -88,6 +88,7 @@ AddEventHandler('qb-communityservice:inCommunityService', function(actions_remai
 	end
 
 	TriggerServerEvent('qb-communityservice:finishCommunityService', QBCore.Key)
+	TriggerEvent('wais:addmissionxp:communityserv', 1) --added by pamela for wais battlepass
 
 	isSentenced = false
 end)
